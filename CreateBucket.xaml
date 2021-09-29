@@ -1,0 +1,18 @@
+﻿<Window x:Class="WahidaHossainComp306Lab01.CreateBucket"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WahidaHossainComp306Lab01"
+        mc:Ignorable="d"
+        Title="CreateBucket" Height="367" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <TextBox x:Name="textBoxBucketName" HorizontalAlignment="Left" Height="35" Margin="190,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="385"/>
+        <Button Content="Create Bucket" HorizontalAlignment="Left" Height="35" Margin="590,45,0,0" VerticalAlignment="Top" Width="180" Click="Button_Click"/>
+        <Label Content="Bucket Name" HorizontalAlignment="Left" Height="35" Margin="85,45,0,0" VerticalAlignment="Top" Width="100"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="155" Margin="20,100,0,0" VerticalAlignment="Top" Width="750" SelectionChanged="DataGrid_SelectionChanged"/>
+        <Button Content="Back To Main" HorizontalAlignment="Left" Height="35" Margin="305,264,0,0" VerticalAlignment="Top" Width="180" Click="createback"/>
+        <Label Content="Wahida Hossain @ Centennial College" HorizontalAlignment="Left" Height="35" Margin="0,304,-3,0" VerticalAlignment="Top" Width="795" Background="#dcdcdc"/>
+
+    </Grid>
+</Window>
